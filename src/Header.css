@@ -1,0 +1,18 @@
+.header{
+    align-items: center;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.nav__menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav__links{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+nav__links > span {
+    padding: 20px;
+}
