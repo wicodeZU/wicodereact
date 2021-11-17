@@ -2,17 +2,32 @@
     align-items: center;
     padding: 20px;
     background-color: whitesmoke;
+    width: 100%;
 }
 .nav__menu{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
-.nav__links{
+.nav__menu:hover{
+    cursor: pointer;
+}
+.logo{
+    width: 20%;
+}
+.nav__items{
     display: flex;
     flex-direction: row;
     column-gap: 30px;
+    justify-content: space-evenly;
+    width: 70%;
 }
-nav__links > span {
-    padding: 20px;
+.nav__links{
+    text-decoration: none;
+    /* padding: 20px; */
+    color: black;
+}
+.nav__links:hover{
+    color: aqua;
+    transition: ease-in-out 0.5s;
 }
