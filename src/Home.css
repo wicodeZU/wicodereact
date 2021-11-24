@@ -1,0 +1,36 @@
+.home{
+    background-color: blue;
+    padding: 20px;
+    width: 100%;
+    
+}
+.home__items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+@keyframes rotation {
+    from{
+        transform: rotate (0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.home__items > img{
+    width: 300px;
+    border-radius: 50%;
+    animation: rotation 5s infinite linear;
+    object-fit: contain;
+}
+.home__items > button{
+    padding: 10px;
+    font-size: larger;
+    border: none;
+    border-radius: 25px;
+    background-color: aqua;
+}
+.home__items > h2{
+    color: aqua;
+}

@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    background-color: whitesmoke;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+}
+.footer__texts{
+    display: flex;
+}
+.footer__texts > p{
+    padding: 10px;
+}
+.sl{
+    color: blue;
+    padding: 20px;
+}

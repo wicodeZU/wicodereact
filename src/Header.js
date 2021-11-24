@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -8,11 +9,11 @@ function Header() {
         <div className="logo">
             <h1>WIcode</h1>
         </div>
-        <div className="nav__links">
-            <span>Home</span>
-            <span>About</span>
-            <span>Team</span>
-            <span>Contact</span>
+        <div className="nav__items">
+            <Link to='/' className='nav__links'>Home</Link>
+            <Link to='/about' className='nav__links'>About</Link>
+            <Link to='/team' className='nav__links'>Team</Link>
+            <Link to='/contact' className='nav__links'>Contact</Link>
         </div>
       </nav>
     </div>
