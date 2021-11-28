@@ -15,7 +15,7 @@ You will also see any lint errors in the console.
 # contibuting Guide
 to contribute fork the ropository
 
-The clone the repo
+Then clone the repo
 ```#!/bin/bash 
 git clone <url>
 ```
