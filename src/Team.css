@@ -1,0 +1,46 @@
+
+.team__card{
+    display: flex;
+    margin:0 auto;
+    padding: 0px;
+    background-color: #dcf1ea;
+}
+.team> h1{
+    text-align: center;
+    padding: 20px;
+}
+.card__image{
+    width: 50%;
+    justify-content: center;
+}
+.card__image> img{
+   width: 100%;
+   padding: 20px; 
+   align-items: center;
+}
+.card__details> h2{
+    text-align: center;
+    padding: 20px;
+}
+.card__details> p{
+    display: block;
+    text-align: center;
+}
+.card__details> ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 1000px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gt{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
