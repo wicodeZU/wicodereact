@@ -31,3 +31,19 @@
     color: aqua;
     transition: ease-in-out 0.5s;
 }
+.humberger{
+    display: none;
+}
+/* media queries */
+@media screen and (max-width:768px){
+    .nav__menu{
+        justify-content: space-evenly;
+    }
+    .nav__links{
+        display: none;
+    }
+    .humberger{
+        display: block;
+        margin-right: 50px;
+    }
+}

@@ -18,3 +18,9 @@
     color: blue;
     padding: 20px;
 }
+/* media queries */
+@media screen and (max-width:768px){
+    .footer{
+        flex-direction: column;
+    }
+}
