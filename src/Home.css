@@ -1,6 +1,7 @@
 .home{
     background-color: blue;
-    padding: 20px;
+    /* padding: 50px; */
+    padding-bottom: 70px;
     width: 100%;
     
 }
@@ -34,3 +35,13 @@
 .home__items > h2{
     color: aqua;
 }
+/* media queries */
+@media screen and (max-width:768px){
+    .home{
+        display: flex;
+        justify-content: center;
+    }
+    .home__items{
+        width: 600px;
+    }
+} 

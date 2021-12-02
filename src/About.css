@@ -58,3 +58,27 @@
     display: flex;
     column-gap: 20px;
 }
+/* media queries */
+@media screen and (max-width:768px){
+    .about__upper{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .aboutText__section{
+        width: 500px;
+    }
+    .aboutImage__section{
+        width: 500px;
+    }
+    .aboutImage__section > img{
+        width: 480px;
+        object-fit: contain;
+        margin-left: 0;
+    }
+    .btn{
+        padding: 10px;
+    }
+    .about__lower{
+        flex-direction: column-reverse;
+    }
+}
